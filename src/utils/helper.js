@@ -1,13 +1,13 @@
 import {
   FaDiagramProject,
   FaEnvelope,
-  FaFacebookF,
+  FaRegEnvelope,
   FaGithub,
   FaHouse,
   FaLinkedinIn,
   FaRenren,
   FaUser,
-  FaYoutube,
+  FaInstagram,
 } from "react-icons/fa6";
 import {
   ChatApp,
@@ -18,34 +18,36 @@ import {
   PixabayClone,
   PortfolioFirebase,
   RestaurantClone,
-  SocialMedia,
+  SocialMedia
 } from "../assets";
+import Appticket from "../assets/img/Project/Appticket.png"
+import Weather from "../assets/img/Project/Weather.png"
+import QuizApp from "../assets/img/Project/QuizApp.png"
 
 export const Socials = [
   {
-    id: `facebook-${Date.now()}`,
-    Icon: FaFacebookF,
-    uril: "",
+    id: `instagram-${Date.now()}`,
+    Icon: FaInstagram,
+    uri: "https://www.instagram.com/ichbinmehran/?hl=en",
     color: "#1877F2",
   },
   {
     id: `linkedin-${Date.now()}`,
     Icon: FaLinkedinIn,
-    uril: "",
+    uri: "",
     color: "#0072b1",
   },
   {
     id: `github-${Date.now()}`,
     Icon: FaGithub,
-    uril: "",
+    uri: "https://github.com/mehranuk98",
     color: "#fff",
-  },
-  {
-    id: `youtube-${Date.now()}`,
-    Icon: FaYoutube,
-    uril: "",
-    color: "#ff0000",
-  },
+  },{
+    id: `FaRegEnvelope-${Date.now()}`,
+    Icon: FaRegEnvelope,
+    uri: "https://mail.google.com/mail/?view=cm&source=mailto&to=mehran.karkehabadi98@gmail.com",
+    color: "#fff",
+  }
 ];
 
 export const Menus = [
@@ -83,57 +85,19 @@ export const Menus = [
 
 export const ProjectsData = [
   {
-    id: `food-${Date.now()}`,
-    name: "Single Food Restaurant",
-    imgSrc: RestaurantClone,
-    gitURL: "https://github.com/Vetrivel-VP",
-  },
-  {
-    id: `codepen-${Date.now()}`,
-    name: "CodePen Clone",
-    imgSrc: CodePenClone,
-    gitURL: "https://github.com/Vetrivel-VP",
-  },
-  {
-    id: `openai-${Date.now()}`,
-    name: "OpenAI",
-    imgSrc: OpenAI,
-    gitURL: "https://github.com/Vetrivel-VP",
-  },
-  {
-    id: `chatapp-${Date.now()}`,
-    name: "Chat App Build",
-    imgSrc: ChatApp,
-    gitURL: "https://github.com/Vetrivel-VP",
-  },
-  {
-    id: `imageSharing-${Date.now()}`,
-    name: "Image Sharing App",
-    imgSrc: ImageSharing,
-    gitURL: "https://github.com/Vetrivel-VP",
-  },
-  {
-    id: `pixabayclone-${Date.now()}`,
-    name: "Pixabay Clone 2.0",
-    imgSrc: PixabayClone,
-    gitURL: "https://github.com/Vetrivel-VP",
-  },
-  {
-    id: `freshjuiceui-${Date.now()}`,
-    name: "Fresh Juice UI Build",
-    imgSrc: FreshJuiceUI,
-    gitURL: "https://github.com/Vetrivel-VP",
-  },
-  {
-    id: `socialmedia-${Date.now()}`,
-    name: "Social Media App",
-    imgSrc: SocialMedia,
-    gitURL: "https://github.com/Vetrivel-VP",
-  },
-  {
-    id: `portfoliofirebase-${Date.now()}`,
-    name: "Portfolio UI Fireabse",
-    imgSrc: PortfolioFirebase,
-    gitURL: "https://github.com/Vetrivel-VP",
-  },
+    id: `Appticket-${Date.now()}`,
+    name: "Appticket",
+    imgSrc: Appticket,
+    gitURL: "https://mehranuk98.github.io/snappbox-appticket/",
+  },{
+    id: `Weather-${Date.now()}`,
+    name: "Weather",
+    imgSrc: Weather,
+    gitURL: "https://mehranuk98.github.io/weather/",
+  },{
+    id: `QuizApp-${Date.now()}`,
+    name: "QuizApp",
+    imgSrc: QuizApp,
+    gitURL: "https://mehranuk98.github.io/Quiz-App/quiz",
+  }
 ];
