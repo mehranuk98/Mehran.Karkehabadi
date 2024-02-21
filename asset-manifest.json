@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Mehran.Karkehabadi/static/css/main.0da28f99.css",
-    "main.js": "/Mehran.Karkehabadi/static/js/main.db2ceb1c.js",
+    "main.js": "/Mehran.Karkehabadi/static/js/main.315ba66d.js",
     "static/media/Weather.png": "/Mehran.Karkehabadi/static/media/Weather.1fe8da698d91ff83af30.png",
     "static/media/Thumb-pixabay-clone-v2–1.png": "/Mehran.Karkehabadi/static/media/Thumb-pixabay-clone-v2–1.283da6c31fa2c95ed90b.png",
     "static/media/Thumb-image-sharing-app-react-native-mar-23-updated.png": "/Mehran.Karkehabadi/static/media/Thumb-image-sharing-app-react-native-mar-23-updated.fe8a59fd18b989b7aa68.png",
@@ -24,10 +24,10 @@
     "static/media/about.webp": "/Mehran.Karkehabadi/static/media/about.f7b4ae1bc971de139af7.webp",
     "index.html": "/Mehran.Karkehabadi/index.html",
     "main.0da28f99.css.map": "/Mehran.Karkehabadi/static/css/main.0da28f99.css.map",
-    "main.db2ceb1c.js.map": "/Mehran.Karkehabadi/static/js/main.db2ceb1c.js.map"
+    "main.315ba66d.js.map": "/Mehran.Karkehabadi/static/js/main.315ba66d.js.map"
   },
   "entrypoints": [
     "static/css/main.0da28f99.css",
-    "static/js/main.db2ceb1c.js"
+    "static/js/main.315ba66d.js"
   ]
 }
